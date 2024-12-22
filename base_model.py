@@ -115,11 +115,7 @@ class Drink(Product):
         return  self.__sugar_free
     def set_sugar_free(self, sugar_free):
         self.__sugar_free = sugar_free
-   
-        
-
-
-
+   #j
 class Menu:
     def __init__(self, from_file):
         self.__menu_items = dict({})
